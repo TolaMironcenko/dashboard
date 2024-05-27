@@ -1,0 +1,41 @@
+.header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    /* width: 100%; */
+    text-align: center;
+    text-shadow: white 0 0 30px;
+}
+
+.usericon {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.usericon:hover {
+    border-radius: 10px;
+    transform: translateY(-10px);
+    box-shadow: white 0 0 30px;
+}
+
+.usericon>img {
+    width: 100%;
+    height: 100%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    text-shadow: white 0 0 30px;
+    margin: 0 10px;
+}
