@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/search.css">
     <title>Dashboard</title>
 </head>
 <body>
     <div class="header">
         <h1 class="header-text">Dashboard</h1>
+        <h1 class="time"></h1>
         <div class="user">
             <h2 class="username">Tola Mironcenko</h2>
             <div class="usericon">
@@ -18,12 +20,15 @@
             </div>
         </div>
     </div>
+    <div class="searchblock">
+        <input type="text" name="search-in-google" id="search-in-google" placeholder="Search in Google">
+    </div>
     <div class="icons">
-        <div class="icon">
+        <!-- <div class="icon">
             <a href="https://google.com">
                 <img src="img/google-icon.png" alt="google-icon">
             </a>
-        </div>
+        </div> -->
         <div class="icon">
             <a href="https://web.telegram.org/k/">
                 <img src="img/telegram-icon.jpeg" alt="telegram-icon">
@@ -39,7 +44,18 @@
                 <img src="img/gitea-icon.png" alt="gitea-icon">
             </a>
         </div>
+        <div class="icon">
+            <a href="http://notes.local.com">
+                <img src="img/notes-icon.jpeg" alt="gitea-icon">
+            </a>
+        </div>
+        <div class="icon">
+            <a href="http://money.local.com">
+                <img src="img/money-icon.jpg" alt="gitea-icon">
+            </a>
+        </div>
     </div>
-    <!-- <iframe src="https://google.com" frameborder="0"></iframe> -->
+    <script src="js/time.js"></script>
+    <script src="js/search.js"></script>
 </body>
 </html>

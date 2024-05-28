@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .header-text {
@@ -38,4 +39,13 @@
 .username {
     text-shadow: white 0 0 30px;
     margin: 0 10px;
+}
+
+.time {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.time:hover {
+    text-shadow: white 0 0 20px;
 }

@@ -10,3 +10,8 @@ body {
     padding: 10px;
     background-color: black;
 }
+
+iframe {
+    width: 50%;
+    height: 50%;
+}
